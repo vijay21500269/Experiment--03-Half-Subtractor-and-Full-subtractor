@@ -62,25 +62,25 @@ endmodule
 ## Output:
 ## Logic symbol & Truthtable:
 ### Half subractor truthtable:
-![img]()
+![img](https://github.com/vijay21500269/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de1-3.png)
 ### Full subractor truthtable:
-![img]()
+![img](https://github.com/vijay21500269/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de2-3.png)
 
 
 
 ##  RTL realization
 ### Half subractor:
-![img]()
+![img](https://github.com/vijay21500269/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de3-3.png)
 ### Full subractor truthtable:
-![img]()
+![img](https://github.com/vijay21500269/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de4-3.png)
 
 
 
 ## Timing diagram 
 ### Half subractor:
-![img]()
+![img](https://github.com/vijay21500269/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de5-3.png)
 ### Full subractor truthtable:
-![img]()
+![img](https://github.com/vijay21500269/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de6-3.png)
 
 
 ## Result:
