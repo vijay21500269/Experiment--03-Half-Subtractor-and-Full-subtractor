@@ -4,9 +4,9 @@
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
-## Software – Quartus prime
-## Theory
+1.Hardware – PCs, Cyclone II , USB flasher
+2.Software – Quartus prime
+## Theory:
 Subtractor circuits take two binary numbers as input and subtract one binary number input from the other binary number input. Similar to adders, it gives out two outputs, difference and borrow (carry-in the case of Adder). There are two types of subtractors.
 
 ## Half Subtractor Full Subtractor
@@ -26,29 +26,62 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
+~~~
 
 
 
-Write the detailed procedure here 
+1.Use module projname(input,output) to start the Verilog programmming.
+2.Assign inputs and outputs using the word input and output respectively.
+3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
+4.Use each output to represnt onre for differnce and the other for borrow.
+5.End the verilog program using keyword endmodule.
+~~~
 
 
 ## Program:
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: R.Vijay
+RegisterNumber:  212221230121
 */
+## Half subractor:
+~~~
+module half_sub(output B,D, input x,y);
+assign D=x^y;
+assign B=~x&y;
+endmodule
+~~~
+## Full subractor:
+~~~
+module full_sub(output B,D, input x,y,z);
+assign D=x^y^z;
+assign B=(~x&(y^z))|(y&z);
+endmodule
+~~~
 
 ## Output:
-
-## Truthtable
+## Logic symbol & Truthtable:
+### Half subractor truthtable:
+![img]()
+### Full subractor truthtable:
+![img]()
 
 
 
 ##  RTL realization
+### Half subractor:
+![img]()
+### Full subractor truthtable:
+![img]()
+
 
 
 ## Timing diagram 
+### Half subractor:
+![img]()
+### Full subractor truthtable:
+![img]()
+
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
